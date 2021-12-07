@@ -1,17 +1,7 @@
-function suma(x,y) {
-    return x + y;
-}
-function resta(x, y) {
-    return x - y;
-}
-function multiplica(x,y) {
-    return x * y;
-}
-function divide(x, y) {
-    if (y == 0) {
-        console.log('No se puede dividir por 0');
-    } else
-        return x / y;
-}
+const math = require('./math.js');
 
-console.log(divide(1, 0));
+console.log(math.suma(1, 0));
+console.log(math.resta(1, 0));
+console.log(math.multiplica(1, 0));
+console.log(math.divide(1, 0));
+console.log(math.divide(1, 2));
