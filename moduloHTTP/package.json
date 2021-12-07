@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "name": "modulohttp",
+  "version": "1.0.0",
+  "description": "usando modulo HTTP",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node-js",
+    "Http"
+  ],
+  "author": "JoelG",
+  "license": "ISC"
+}
